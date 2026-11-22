@@ -21,4 +21,9 @@ public class DemoApplication {
     public String info() {
         return "This request was handled by Spring Boot.";
     }
+
+    public static void method(){
+        System.out.println("Hello from Spring Boot!");
+    }
+
 }
